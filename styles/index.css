@@ -1,3 +1,4 @@
+@import "base.css";
 /* @font-face {
   font-family: Inter;
   src: url("../fonts/Inter-Regular.ttf");
@@ -7,13 +8,12 @@
   font-family: InterBold;
   src: url("../fonts/Inter-Bold.ttf");
 } */
-
 body {
-  background-color: #ff7b54;
-  color: #ffffff;
+  background-color: var(--color-primary);
+  color: var(--color-text-on-primary);
   /* font-family: InterBold; */
-  font-family: "Inter", sans-serif;
-  font-weight: bold;
+  font-family: var(--font-family);
+  /* font-weight: bold; */
 }
 
 a {
